@@ -6,7 +6,6 @@ const Projects = () => {
     <>
     <h2 className="judulhalaman" id="projects">Projects</h2>
 
-    {/* Kotak 2x3 */}
     <div className="kotakprojek">
       {projek.map((projek, index) => (
         <div className="perkotak" key={index}>
