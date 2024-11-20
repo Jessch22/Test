@@ -1,0 +1,153 @@
+:root {
+  --modalColor: rgba(255, 255, 255, 0.872);
+  --modalclosebtnColor: #2a5c48;
+  --modalhoverColor: #ff3b3b;
+  --modalPadding: 50px 80px;
+  --closeBtnSize: 50px;
+  --modalWidth: 70%;
+  --bahasaColor: #013927;
+  --linkColor: #013927;
+  --bgModalColor:rgba(0, 0, 0, 0.904);
+}
+
+.modal-overlay {
+  z-index: 2000;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bgModalColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.isi-modal {
+  background-color: var(--modalColor);
+  padding: var(--modalPadding);
+  width: var(--modalWidth);
+  border-radius: 15px;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.isi-modal h4 {
+  font-size: 1.1em;
+  color: var(--hoverboxColor);
+  margin-bottom: 8px;
+}
+
+.isi-modal h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: 0;
+  font-size: var(--closeBtnSize);
+  font-weight: bolder;
+  color: var(--modalclosebtnColor);
+  cursor: pointer;
+  transition: color 0.3s ease;
+  position: fixed;
+  right: 60px;
+  top: 50px;
+}
+
+.close-btn:hover {
+  color: var(--modalhoverColor);
+}
+
+.bahasa-projek {
+  text-align: start;
+}
+
+.perbahasa {
+  background-color: var(--subboxColor);
+  margin: 0 5px 12px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 0 10px;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.perbahasa:hover{
+  background-color: var(--hoverboxColor);
+}
+
+.link a {
+  padding: 0 10px;
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: var(--modalhoverColor);
+}
+
+.isi-modal h4,
+.isi-modal h3 {
+  text-align: left;
+}
+
+.judul-modal h4 {
+  margin-bottom: -8px;
+}
+
+.isi-modal p {
+  text-align: justify;
+}
+
+.isi-modal .preview {
+  text-align: center;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.isi-modal img {
+  width: 95%;
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .isi-modal {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .close-btn {
+    font-size: 40px;
+  }
+
+  .bahasa-projek {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .perbahasa {
+    margin: 5px;
+    width: auto;
+    font-size: 0.8rem;
+  }
+
+  .link a {
+    font-size: 0.9rem;
+  }
+}
