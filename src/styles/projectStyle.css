@@ -1,0 +1,66 @@
+:root{
+  --boxColor: #013927;
+  --subboxColor: #2a5c48;
+  --hoverboxColor:#449474;
+  --fontColor: white;
+}
+
+.kotakprojek{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 20px 50px 0 50px;
+}
+
+.perkotak{
+  background-color: var(--boxColor);
+  width: calc(33% - 20px);
+  text-align: center;
+  color: var(--fontColor);
+  border-radius: 10px;
+  padding: 0 0 20px 0;
+}
+
+.perkotak:hover {
+  transform: translateY(-10px);
+}
+
+.perkotak h4 {
+  font-size: 1.1em;
+  color: var(--hoverboxColor);
+  margin-bottom: 8px;
+}
+
+.perkotak h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+.bahasa{
+  background-color: var(--subboxColor);
+  margin: 0 5px 12px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 0 10px 0 10px;
+  width: 80px;
+  justify-content: center;
+}
+
+.bahasa:hover{
+  background-color: var(--hoverboxColor);
+}
+
+@media (max-width: 768px) {
+  .perkotak {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .perkotak {
+    width: 100%;
+  }
+}
