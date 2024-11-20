@@ -17,7 +17,7 @@ const projek = [
     linkgithub: "",
     documentation:"",
     linkfigma:"",
-    preview: "",
+    preview: "../previewproject/AksaBuku.png",
   },
   {
     topik: "Full Stack",
@@ -27,7 +27,7 @@ const projek = [
     linkgithub: "https://github.com/Jessch22/Laravel-Website-Ropang",
     documentation:"",
     linkfigma:"",
-    preview: "",
+    preview: "../previewproject/RitterTalent.png",
   },
   {
     topik: "Mobile Programming",
