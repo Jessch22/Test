@@ -4,7 +4,7 @@ import "../styles/projectStyle.css";
 const Projects = () => {
   return (
     <>
-    <h2 className="judulhalaman">Projects</h2>
+    <h2 className="judulhalaman" id="projects">Projects</h2>
 
     {/* Kotak 2x3 */}
     <div className="kotakprojek">
