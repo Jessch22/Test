@@ -7,7 +7,7 @@ const projek = [
     linkgithub: "",
     documentation:"",
     linkfigma:"",
-    preview: "",
+    preview: "../previewproject/TMII.png",
   },
   {
     topik: "Full Stack",
@@ -43,7 +43,7 @@ const projek = [
     topik: "UI Design & Mobile Programming",
     judul: "HampTrack -  Expense and Budget Tracker", 
     guna: ["Flutter", "Firebase"], 
-    deskripsi: "Proyek ini merupakan aplikasi mobile untuk mencatat pemasukan maupun pengeluaran yang dikemas secara lucu dan menarik dengan maskot  bernama ;Mou’. Aplikasi ini memungkinkan pengguna untuk mendaftarkan akun, mencatat pemasukkan, mencatat pengeluaran, memperoleh statistik pemasukan/pengeluaran, dan menetapkan budget.  Karakter Mou akan menampilkan kesehatan finansial.  Jika pengeluaran melebihi budget yang ditentukan, karakter Mou akan tampak tidak baik.",
+    deskripsi: "Proyek ini merupakan aplikasi mobile untuk mencatat pemasukan maupun pengeluaran yang dikemas secara lucu dan menarik dengan maskot  bernama ‘Mou’. Aplikasi ini memungkinkan pengguna untuk mendaftarkan akun, mencatat pemasukkan, mencatat pengeluaran, memperoleh statistik pemasukan/pengeluaran, dan menetapkan budget. Karakter Mou akan menampilkan kesehatan finansial.  Jika pengeluaran melebihi budget, maka karakter Mou akan feel unwell. Selain itu, ada pula fitur tambahan seperti forgot password, edit profile, dan edit expense/income.",
     linkgithub: "https://github.com/ChristabellaJC/Flutter_Hamptrack_Expense_and_Budget_Tracker",
     documentation:"",
     linkfigma:"https://www.figma.com/proto/ZTHnQjzIcigcvXTCZEfLrE/HampTrack?node-id=283-707&t=997Vz1fgnKQlQMyy-1",

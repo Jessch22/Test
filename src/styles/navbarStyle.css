@@ -49,6 +49,15 @@
   left: 0; 
 }
 
+.navbar nav a.active {
+  color: var(--hoverNavColor);
+}
+
+.navbar nav a.active:after {
+  width: 100%;
+  left: 0;
+}
+
 @media screen and (max-width:769px){
   .navbar{
     margin: 0 10% 0 10%;
