@@ -7,18 +7,22 @@
 .navbar{
   background-color: var(--navbarColor);
   padding: 20px;
-  margin: 0 20% 0 20%;
+  margin: 0 10% 0 10%;
   border-radius: 0 0px 50px 50px;
 }
 
 .navbar a{
   color: var(--textNavColor);
   font-weight: 600;
-  padding: 0 20px 8px;
+  padding: 0 18px 8px;
   font-size: 20px;
   text-decoration: none;
   display: inline-block;
   position: relative;
+}
+
+.navbar a span{
+  margin: 8px;
 }
 
 .navbar nav a:hover{
@@ -45,5 +49,15 @@
 @media screen and (max-width:769px){
   .navbar{
     margin: 0 10% 0 10%;
+  }
+
+  .navbar a span{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1081px){
+  .navbar a{
+    padding: 0 10px 8px;
   }
 }
