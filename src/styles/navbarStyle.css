@@ -1,7 +1,7 @@
 :root{
   --navbarColor: #013927;
   --textNavColor: white;
-  --hoverNavColor: rgba(81, 255, 0, 0.489);
+  --hoverNavColor: rgba(213, 255, 194, 0.489);
 }
 
 .navbar{

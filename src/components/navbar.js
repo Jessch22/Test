@@ -1,7 +1,4 @@
 import "../styles/navbarStyle.css"
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes , faBars } from '@fortawesome/free-solid-svg-icons';
 
 const navigation = [
   { name: 'Home', href:"#home", current: true},
@@ -11,8 +8,6 @@ const navigation = [
 ];
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return(
     <>
     <div className="navbar">
