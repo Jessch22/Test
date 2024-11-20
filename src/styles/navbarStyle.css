@@ -1,0 +1,49 @@
+:root{
+  --navbarColor: #013927;
+  --textNavColor: white;
+  --hoverNavColor: rgba(81, 255, 0, 0.489);
+}
+
+.navbar{
+  background-color: var(--navbarColor);
+  padding: 20px;
+  margin: 0 20% 0 20%;
+  border-radius: 0 0px 50px 50px;
+}
+
+.navbar a{
+  color: var(--textNavColor);
+  font-weight: 600;
+  padding: 0 20px 8px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar nav a:hover{
+  color: var(--hoverNavColor);
+}
+
+.navbar nav a:after{
+  content: "";
+  bottom: 0;
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--hoverNavColor);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.navbar nav a:hover:after{
+  width: 100%; 
+  left: 0; 
+}
+
+@media screen and (max-width:769px){
+  .navbar{
+    margin: 0 10% 0 10%;
+  }
+}
