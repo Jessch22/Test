@@ -4,9 +4,7 @@ import "../styles/projectStyle.css";
 const Projects = () => {
   return (
     <>
-    
-    {/* Judul */}
-    <h2>Projects</h2>
+    <h2 className="judulhalaman">Projects</h2>
 
     {/* Kotak 2x3 */}
     <div className="kotakprojek">
@@ -22,16 +20,6 @@ const Projects = () => {
         </div>
       ))}
     </div>
-
-
-    {/* ISI KOTAK: */}
-    {/* Subjudul */}
-    {/* Judul projek */}
-    {/* Bahasa Program */}
-
-
-
-
     </>
   )
 }

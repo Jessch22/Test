@@ -5,12 +5,16 @@
   --fontColor: white;
 }
 
+.judulhalaman{
+  font-size: 40px;
+}
+
 .kotakprojek{
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-around;
-  margin: 20px 50px 0 50px;
+  justify-content: flex-start;
+  margin: 20px 50px 8px 50px;
 }
 
 .perkotak{
@@ -20,6 +24,7 @@
   color: var(--fontColor);
   border-radius: 10px;
   padding: 0 0 20px 0;
+  min-height: 120px;
 }
 
 .perkotak:hover {
