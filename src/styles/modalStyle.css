@@ -84,9 +84,13 @@
 
 .link a {
   padding: 0 10px;
-  color: var(--linkColor);
+  color: white;
   text-decoration: none;
   transition: color 0.3s ease;
+  background-color: var(--linkColor);
+  border-radius: 30px;
+  padding: 0 20px;
+  margin: 0 20px;
 }
 
 .link a:hover {

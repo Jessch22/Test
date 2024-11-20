@@ -18,9 +18,15 @@ const Modal = ({ currprojek, closeModal }) => {
         </div>
         <p>{currprojek.deskripsi}</p>
         <div className="link">
-          <a href={currprojek.linkgithub} target="_blank" rel="noopener noreferrer">Github</a>
-          <a href={currprojek.documentation} target="_blank" rel="noopener noreferrer">Documentation</a>
-          <a href={currprojek.linkfigma} target="_blank" rel="noopener noreferrer">Figma</a>
+          {currprojek.linkgithub && (
+            <a href={currprojek.linkgithub} target="_blank" rel="noopener noreferrer">Github</a>
+          )}
+          {currprojek.documentation && (
+            <a href={currprojek.documentation} target="_blank" rel="noopener noreferrer">Documentation</a>
+          )}
+          {currprojek.linkfigma && (
+            <a href={currprojek.linkfigma} target="_blank" rel="noopener noreferrer">Figma</a>
+          )}
         </div>
         <h4 className="preview">Preview</h4>
         <img src={currprojek.preview} alt="preview" />
